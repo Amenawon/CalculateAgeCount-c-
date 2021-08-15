@@ -1,13 +1,6 @@
 # CalculateAgeCount-c#
 
 
-using System;
-using System.IO;
-using System.Net;
-using System.Text.RegularExpressions;
-
-namespace CoderByte
-{
     class Program
     {
         static void Main(string[] args)
@@ -51,5 +44,4 @@ namespace CoderByte
             
             return matches.Count;
         }
-    }
 }
